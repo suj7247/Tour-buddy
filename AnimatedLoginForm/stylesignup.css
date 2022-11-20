@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	background-image: url("aaa.cms");
+	
+	background-size: 100% 740px;
+	font-family: 'Mulish', sans-serif;
+}
+.contain{
+	border: solid 3px aqua;
+	border-radius: 25px;
+	width: 400px;
+	height: 480px;
+	background-color: rgb(0, 0, 0);
+	margin-left: 38%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	text-align: center;
+	color: white;
+}
+.contain h1{
+	font-size: 36px;
+	color: aqua;
+}
+.contain .text{
+         position: relative;
+         top: 7%;
+}
+.inp1{
+	border: none;
+	background-color: black;
+	border-bottom: 2px solid white;
+	width: 250px;
+	font-size: 20px;
+	margin-top: 40px;
+	outline: none;
+	color: white;
+}
+.inp2{
+	border: none;
+	background-color: black;
+	border-bottom: 2px solid white;
+	width: 250px;
+	font-size: 20px;
+	margin-top: 40px;
+	outline: none;
+	color: white;
+}
+.inp3{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+	font-size: 20px;
+	margin-top: 40px;
+	outline: none;
+	color: white;
+}
+.text button{
+	width: 250px;
+	height: 44px;
+	background-color: aqua;
+	color: black;
+	border: none;
+	font-size: 22px;
+	border-radius: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+button:hover{
+	border:3px solid aqua;
+	color: white;
+	font-size: 20px;
+	background-color: black;
+}
+p{
+	margin-top: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+p a{
+	color: aqua;
+	cursor: pointer;
+}
